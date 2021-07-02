@@ -113,7 +113,7 @@ TARGET_USES_MKE2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
+TARGET_TAP_TO_WAKE_NODE := "/dev/input/event2"
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
