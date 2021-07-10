@@ -287,7 +287,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
+    vendor.qti.hardware.perf@2.2.vendor \
     android.hardware.power@1.3-service.sdm710
 
 PRODUCT_COPY_FILES += \
